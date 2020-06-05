@@ -1,0 +1,62 @@
+html, body{
+  font-family:serif;
+  background-color: #eeeeee;
+}
+
+.header{
+  background-color: #3f3844;
+}
+
+.header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header >ul>li{
+  float: left;
+}
+
+.header li a{
+  display: inline-block;
+  padding: 10px 17px;
+  text-decoration: none;
+  color: white;
+}
+
+.header li a:hover{
+  background-color: #F31F79;
+}
+
+.main{
+  padding: 20px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.17);
+}
+
+.container{
+  text-align: justify;
+  overflow: hidden;
+}
+
+.container > p{
+  column-count: 4;
+  height:200px;
+  column-fill: balance;
+  column-rule: 2px solid #3f3844;
+}
+
+
+
+
+.footer{
+  background-color: #3f3844;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.footer h2{
+  padding: 10px;
+  font-size: 16px;
+}
